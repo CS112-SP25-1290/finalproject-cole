@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.miracosta.cs112.finalproject.finalproject.controllers.PokemonController">
+   <children>
+      <ImageView fitHeight="618.0" fitWidth="407.0" layoutX="97.0" layoutY="-109.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@../../../../../images/pokedex1.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="pokemon1Button" layoutX="14.0" layoutY="26.0" mnemonicParsing="false" onAction="#handlePokemon1" prefHeight="90.0" prefWidth="282.0" text="Pokemon 1" />
+      <Button fx:id="pokemon3Button" layoutX="14.0" layoutY="131.0" mnemonicParsing="false" onAction="#handlePokemon3" prefHeight="90.0" prefWidth="282.0" text="Pokemon 3" />
+      <Button fx:id="pokemon5Button" layoutX="14.0" layoutY="239.0" mnemonicParsing="false" onAction="#handlePokemon5" prefHeight="90.0" prefWidth="282.0" text="Pokemon 5" />
+      <Button fx:id="pokemon2Button" layoutX="304.0" layoutY="77.0" mnemonicParsing="false" onAction="#handlePokemon2" prefHeight="90.0" prefWidth="282.0" text="Pokemon 2" />
+      <Button fx:id="pokemon4Button" layoutX="304.0" layoutY="182.0" mnemonicParsing="false" onAction="#handlePokemon4" prefHeight="90.0" prefWidth="282.0" text="Pokemon 4" />
+      <Button fx:id="pokemon6Button" layoutX="304.0" layoutY="290.0" mnemonicParsing="false" onAction="#handlePokemon6" prefHeight="90.0" prefWidth="282.0" text="Pokemon 6" />
+      <ImageView fx:id="pokemonImage1" fitHeight="90.0" fitWidth="87.0" layoutX="14.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="pokemonImage3" fitHeight="90.0" fitWidth="87.0" layoutX="14.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="pokemonImage2" fitHeight="90.0" fitWidth="87.0" layoutX="304.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="pokemonImage4" fitHeight="90.0" fitWidth="87.0" layoutX="304.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="pokemonImage6" fitHeight="90.0" fitWidth="87.0" layoutX="304.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="pokemonImage5" fitHeight="90.0" fitWidth="87.0" layoutX="14.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true" />
+      <ProgressBar fx:id="pokemon1PB" layoutX="165.0" layoutY="98.0" prefHeight="18.0" prefWidth="120.0" progress="0.0" />
+      <ProgressBar fx:id="pokemon3PB" layoutX="165.0" layoutY="200.0" prefHeight="18.0" prefWidth="120.0" progress="0.0" />
+      <ProgressBar fx:id="pokemon5PB" layoutX="165.0" layoutY="311.0" prefHeight="18.0" prefWidth="120.0" progress="0.0" />
+      <ProgressBar fx:id="pokemon2PB" layoutX="457.0" layoutY="149.0" prefHeight="18.0" prefWidth="120.0" progress="0.0" />
+      <ProgressBar fx:id="pokemon4PB" layoutX="457.0" layoutY="254.0" prefHeight="18.0" prefWidth="120.0" progress="0.0" />
+      <ProgressBar fx:id="pokemon6PB" layoutX="457.0" layoutY="362.0" prefHeight="18.0" prefWidth="120.0" progress="0.0" />
+   </children>
+</Pane>

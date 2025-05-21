@@ -1,0 +1,1 @@
+The UD2 slides are provided as a PDF as "[UD2 - Cole Mengelberg.pdf](UD2%20-%20Cole%20Mengelberg.pdf)"

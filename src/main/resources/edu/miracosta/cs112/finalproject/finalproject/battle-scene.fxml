@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.miracosta.cs112.finalproject.finalproject.controllers.BattleController">
+   <children>
+      <ImageView fitHeight="363.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../images/battle_background.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="userPokemonImage" fitHeight="191.0" fitWidth="211.0" layoutX="51.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="botPokemonImage" fitHeight="150.0" fitWidth="200.0" layoutX="396.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="fightButton" layoutX="300.0" layoutY="242.0" minHeight="53.0" minWidth="145.0" mnemonicParsing="false" onAction="#handleFight" style="-fx-background-color: #ef3939; -fx-text-fill: white; -fx-font-size: 20px; -fx-border-color: #c12d2d;             -fx-border-width: 3px; -fx-effect: dropshadow(one-pass-box, black, 15, 0.0, 0, 0);" text="FIGHT" />
+      <Button fx:id="healButton" layoutX="450.0" layoutY="242.0" minHeight="53.0" minWidth="145.0" mnemonicParsing="false" onAction="#handleHeal" style="-fx-background-color: #5ab429; -fx-text-fill: white; -fx-font-size: 20px; -fx-border-color: #4a9823;             -fx-border-width: 4px; -fx-effect: dropshadow(one-pass-box, black, 15, 0.0, 0, 0);" text="BAG" />
+      <Button fx:id="runButton" layoutX="450.0" layoutY="301.0" minHeight="53.0" minWidth="145.0" mnemonicParsing="false" onAction="#handleRun" style="-fx-background-color: #e09828; -fx-text-fill: white; -fx-font-size: 20px; -fx-border-color: #be8123;             -fx-border-width: 4px; -fx-effect: dropshadow(one-pass-box, black, 15, 0.0, 0, 0);" text="RUN" />
+      <Button fx:id="pokemonButton" layoutX="300.0" layoutY="301.0" minHeight="53.0" minWidth="145.0" mnemonicParsing="false" onAction="#handlePokemon" style="-fx-background-color: #638bcc; -fx-text-fill: white; -fx-font-size: 20px; -fx-border-color: #5274aa;             -fx-border-width: 4px; -fx-effect: dropshadow(one-pass-box, black, 15, 0.0, 0, 0);" text="POKEMON" />
+      <ProgressBar fx:id="userHPProgressBar" layoutX="29.0" layoutY="330.0" prefWidth="200.0" progress="0.0" />
+      <ProgressBar fx:id="botHPProgressBar" layoutX="29.0" layoutY="22.0" prefWidth="200.0" progress="0.0" />
+   </children>
+</AnchorPane>

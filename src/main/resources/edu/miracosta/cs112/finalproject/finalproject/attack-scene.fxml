@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.miracosta.cs112.finalproject.finalproject.controllers.AttackController">
+   <children>
+      <ImageView fitHeight="605.0" fitWidth="603.0" layoutX="-1.0" layoutY="-197.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../images/pokelogo.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="attack1Button" layoutX="14.0" layoutY="39.0" mnemonicParsing="false" onAction="#handleAttack1" prefHeight="117.0" prefWidth="267.0" text="Attack 1" />
+      <Button fx:id="attack2Button" layoutX="319.0" layoutY="39.0" mnemonicParsing="false" onAction="#handleAttack2" prefHeight="117.0" prefWidth="267.0" text="Attack 2" />
+      <Button fx:id="attack3Button" layoutX="14.0" layoutY="237.0" mnemonicParsing="false" onAction="#handleAttack3" prefHeight="117.0" prefWidth="267.0" text="Attack 3" />
+      <Button fx:id="attack4Button" layoutX="319.0" layoutY="237.0" mnemonicParsing="false" onAction="#handleAttack4" prefHeight="117.0" prefWidth="267.0" text="Attack 4" />
+      <TextField fx:id="attack1Text" alignment="CENTER" layoutX="218.0" layoutY="125.0" prefHeight="25.0" prefWidth="55.0" />
+      <TextField fx:id="attack2Text" alignment="CENTER" layoutX="525.0" layoutY="125.0" prefHeight="25.0" prefWidth="55.0" />
+      <TextField fx:id="attack3Text" alignment="CENTER" layoutX="218.0" layoutY="321.0" prefHeight="25.0" prefWidth="55.0" />
+      <TextField fx:id="attack4Text" alignment="CENTER" layoutX="525.0" layoutY="321.0" prefHeight="25.0" prefWidth="55.0" />
+   </children>
+</Pane>

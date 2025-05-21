@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.miracosta.cs112.finalproject.finalproject.controllers.BagController">
+   <children>
+      <ImageView fitHeight="618.0" fitWidth="407.0" layoutX="97.0" layoutY="-109.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@../../../../../images/pokedex1.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="potion1Button" layoutX="304.0" layoutY="50.0" mnemonicParsing="false" onAction="#handlePotion1" prefHeight="90.0" prefWidth="282.0" text="Great Potion" />
+      <Button fx:id="potion2Button" layoutX="304.0" layoutY="150.0" mnemonicParsing="false" onAction="#handlePotion2" prefHeight="90.0" prefWidth="282.0" text="Mysterious Potion" />
+      <TextField fx:id="potion1Text" layoutX="517.0" layoutY="115.0" prefHeight="25.0" prefWidth="69.0" />
+      <TextField fx:id="potion2Text" layoutX="517.0" layoutY="215.0" prefHeight="25.0" prefWidth="69.0" />
+   </children>
+</Pane>
